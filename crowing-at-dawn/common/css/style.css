@@ -19,7 +19,7 @@ html, body, #body { width:100%; height:100%; }
 }
 @media (max-width:1200px) {
   #body::before { display:none; }
-  #body::after { content:""; width:100%; height:100%; position:fixed; display:block; top:0; left:0; background:url(../img/main_bg2-sp.jpg) no-repeat center center / cover; z-index:-2; transition:background-image 1s 1s, transform 1.5s, filter 1.5s; }
+  #body::after { content:""; width:100%; height:100%; position:fixed; display:block; top:0; left:0; background:url(../img/main_bg-sp.jpg) no-repeat center center / cover; z-index:-2; transition:background-image 1s 1s, transform 1.5s, filter 1.5s; }
   #body:not(.anm_on)::after { transform:scale(1.2); filter:blur(5px); }
   #main { left:auto; right:0; display:block; width:500px; max-width:100%; margin-left:auto; margin-right:auto; font-size:14px; position:relative; padding:40px 20px 100px; }
   #body:not(.anm_on) #main { transform:translateX(0); }
